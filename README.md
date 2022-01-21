@@ -1,3 +1,10 @@
+# Just Search
+
+# Overview
+This Site Provide you search Engine Facility with dark mode also. It also provide you the facility of drive storage. The last feature is map. If you want to know the path of your destination or want to know the expected time to reach your destinaion then it is very helpful for you.
+# Technology Used
+I have used React for making this site. I have used rapid api's Google Search Api for making the search engine. And for voice command functioning I have used Alan AI api. For Drive and storage and authentication I have used Firebase. And for the map's feature I have used Mapbox Api. For Implementing the dark mode I have used Tailwind css. I have also used Bootstarp.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
