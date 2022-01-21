@@ -1,0 +1,55 @@
+.background_image{
+    content: "";
+    background-image: url('./Home2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-attachment: absolute;
+    position: absolute;
+    
+}
+
+.about{
+    color: wheat;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.small{
+    font-size: 1.2rem;
+}
+.about-text{
+    color: wheat;
+    text-align: center;
+    padding: 0px 0.8rem;
+}
+
+.exploration{
+
+    /* background-color: rgba(255, 255, 255, 0.765); */
+    color: wheat;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+
+}
+.exploration h1{
+    margin-bottom: 2rem;
+}
+
+.drive{
+    width: 100px;
+    background-color: blue;
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.feedback{
+    margin-top: 4rem;
+}
