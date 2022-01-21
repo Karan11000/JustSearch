@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.map__container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: auto;
+}
