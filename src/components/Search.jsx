@@ -9,18 +9,19 @@ function Search({darkMode, setDarkMode}) {
     const {alanInstance, setAlanInstance} = useContext(ContextState);
     // setSearchTerm(text);
 
-    const update = useCallback(({detail:result})=>{
-      setSearchTerm(result);
+    const update = useCallback(({detail:textresult})=>{
+      setSearchTerm(textresult);
+      setText(textresult);
   }, [alanInstance]);
 
 
-    const update1 = useCallback(({detail:darkness})=>{
-      setDarkMode(darkness)
+    const update1 = useCallback(()=>{
+      setDarkMode(true)
   }, [alanInstance]);
 
 
-    const update2 = useCallback(({detail:darkness})=>{
-      setDarkMode(darkness)
+    const update2 = useCallback(()=>{
+      setDarkMode(false)
   }, [alanInstance]);
   
   
@@ -43,16 +44,10 @@ function Search({darkMode, setDarkMode}) {
           bottom: "2vh",
           right: "1vw",
           key: "d507e7cf2dbb7bb18cd1f7d71e60ce922e956eca572e1d8b807a3e2338fdd0dc/stage",
-          onCommand: ({ command, darkness, result }) => {
+          onCommand: ({ command, textresult }) => {
             // console.log("Karan", command);
             // console.log(command);
-            if(command=="searchResult"){
-
-              window.dispatchEvent(new CustomEvent(command, {detail:result}));
-            }else{
-              
-              window.dispatchEvent(new CustomEvent(command, {detail:darkness}));
-            }
+              window.dispatchEvent(new CustomEvent(command, {detail:textresult}));
           },
         })
       );
