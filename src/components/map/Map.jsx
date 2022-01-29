@@ -7,7 +7,6 @@ import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css"
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { Link } from "react-router-dom"
 
-//Add the access token here
 mapboxgl.accessToken = "pk.eyJ1Ijoia2FyYW4xMDEwMCIsImEiOiJja3ltcXZkYWgzaTN4MnFvOHRwNXhrYTB0In0.2I6lGzC4QADtL0ZTiGE9HA";
 
 const Map = () => {
