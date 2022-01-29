@@ -1,8 +1,5 @@
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
-// import { faFileUpload } from "@fortawesome/free-solid-svg-icons"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import IconButton from '@mui/material/IconButton';
 import { useAuth } from "../contexts/AuthContext"
 import { storage, database } from "../firebase"
 import { ROOT_FOLDER } from "../hooks/useFolder"
