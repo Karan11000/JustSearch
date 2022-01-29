@@ -1,5 +1,5 @@
 .background_image{
-    background-image: url(https://source.unsplash.com/1600x900/?japan);
+    background-image: url('https://source.unsplash.com/1600x900/?japan');
     background-size: cover;
     width: 100%;
     height: auto;
